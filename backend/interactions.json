@@ -1,0 +1,428 @@
+{
+  "default": {
+    "fd253d3e-381c-45d0-b108-83f510714c61": [
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "central processing unit. it calculates / evaluates all the commands from all the hardware, users and periferals of the computer",
+        "question": "What does CPU stand for, and what is its primary function in a computer?",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "two ways of structuring your programs. object oriented tries to represent object of the real world as objects. procedural programming is trying to make a structure out of a bunch of procedures.",
+        "question": "Explain the difference between procedural programming and object-oriented programming.",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "that's a basic organization unit of information. various data structures are optimised for various usage scenarios. like hash for fast search, bag of words for non prioritized storage of words etc",
+        "question": "What is a data structure, and can you give an example of one?",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "using the same procedure to traverse nested substructures. depth first search is an example of a problem solved with recursion",
+        "question": "Describe the process of recursion and provide an example of a problem that can be solved using recursion.",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "algorithm essentially is a small program. usually it handles a specific problem like traversing a tree, searching for some information in a data structure etc. program on the other hand is something much more holistic. which can contain multiple algorightms.",
+        "question": "What is the purpose of an algorithm, and how does it differ from a program?",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "how much time does it take for the algorightm to process a specific data structure. this is usually measured not in absolute values but in functions which depict time complexity. it can be linear, quadratic etc and usually depends on the qty of the elements in the data structure.",
+        "question": "Define the concept of time complexity in computer science and explain its significance in algorithm analysis.",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": "it usually has a human written formula with weights adjusted during learning. like linear function ax+b. Where a and b can be adjusted during training on the real world data. ",
+        "question": "Can you explain the principles of machine learning and give an example of its application in real-world scenarios?",
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "fd253d3e-381c-45d0-b108-83f510714c61",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      }
+    ],
+    "8ecd45d1-27cb-4136-89fe-35c06ccdc73a": [
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "hardware is real and has physical properties such as weight, volume etc. software is bits and bytes. you can interact with it using computer but you cant touch it",
+        "question": "What is the difference between hardware and software in a computer system?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "hardware is real and has physical properties such as weight, volume etc. software is bits and bytes. you can interact with it using computer but you cant touch it"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "Using the same programming constucts to work on nested / substructures",
+        "question": "Explain the concept of recursion in programming with an example.",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "Using the same programming constucts to work on nested / substructures"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "to avoid data duplication which could potentially generate problems while matching rows due to typing errors, spelling etc.",
+        "question": "What is the purpose of data normalization in database design?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "to avoid data duplication which could potentially generate problems while matching rows due to typing errors, spelling etc."
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "those are application level protocol. essentially allowing applications to send and receive data. the difference is https is encrypted and due to that is considered secure.",
+        "question": "Describe the difference between HTTP and HTTPS protocols.",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "those are application level protocol. essentially allowing applications to send and receive data. the difference is https is encrypted and due to that is considered secure."
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "it's dividing the tree into halves on each iteration and then decides whether to proceed in the left half or the right half. then recursively traverses the data structure which allows for log^2(n) time complexity",
+        "question": "How does a binary search algorithm work, and what is its time complexity?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "it's dividing the tree into halves on each iteration and then decides whether to proceed in the left half or the right half. then recursively traverses the data structure which allows for log^2(n) time complexity"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "compiled languages have a pre-run phase which ensures syntactical correctness of the code written. and so some of the errors can be caught during the compilation phase.",
+        "question": "Explain the difference between compiled and interpreted programming languages.",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "compiled languages have a pre-run phase which ensures syntactical correctness of the code written. and so some of the errors can be caught during the compilation phase.",
+        "score": 5,
+        "feedback": "content=[{'type': 'text', 'text': '{\"score\": 7, \"feedback\": \"The student\\'s answer provides a decent understanding of compiled languages by mentioning the pre-run phase and catching errors during compilation. However, it could be improved by also mentioning interpreted languages and how they are different, like how they are executed line by line instead of pre-compiled.\"}', 'annotations': []}] additional_kwargs={} response_metadata={'id': 'resp_6832cd92ac54819897cdba03a3be8426098624122d7acf03', 'created_at': 1748159890.0, 'metadata': {}, 'model': 'gpt-3.5-turbo-0125', 'object': 'response', 'service_tier': 'default', 'status': 'completed', 'model_name': 'gpt-3.5-turbo-0125'} id='msg_6832cd9301ec8198b42d31b2afeec3cb098624122d7acf03' usage_metadata={'input_tokens': 112, 'output_tokens': 66, 'total_tokens': 178, 'output_token_details': {}}"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": "it helps us understand the largest parts of the algorithm will consume what amount of time compared to the number of input params. usually we get it as a function like linear, quadratic, logarithmic etc.",
+        "question": "Discuss the concept of time complexity and its importance in algorithm analysis.",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "it helps us understand the largest parts of the algorithm will consume what amount of time compared to the number of input params. usually we get it as a function like linear, quadratic, logarithmic etc.",
+        "score": 5,
+        "feedback": "content=[{'type': 'text', 'text': '{\"score\": 7, \"feedback\": \"The student has a good understanding of time complexity and its relationship to the algorithm\\'s input. However, they could improve by providing more specific examples and explanations to demonstrate a deeper understanding.\"}', 'annotations': []}] additional_kwargs={} response_metadata={'id': 'resp_6832d2384a28819892884b89d9653e1e022a269a4c3e2f65', 'created_at': 1748161080.0, 'metadata': {}, 'model': 'gpt-3.5-turbo-0125', 'object': 'response', 'service_tier': 'default', 'status': 'completed', 'model_name': 'gpt-3.5-turbo-0125'} id='msg_6832d23889408198bbb907ae686c4138022a269a4c3e2f65' usage_metadata={'input_tokens': 124, 'output_tokens': 48, 'total_tokens': 172, 'output_token_details': {}}"
+      },
+      {
+        "topic": "8ecd45d1-27cb-4136-89fe-35c06ccdc73a",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      }
+    ],
+    "dd0f5ae8-0166-476d-b95f-a285ed95b230": [
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": "hardware is physical parts of your computer while software is bytes and bits in your memory",
+        "question": "What is the difference between hardware and software in a computer system?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "hardware is physical parts of your computer while software is bytes and bits in your memory",
+        "score": 5,
+        "feedback": "content=[{'type': 'text', 'text': '{\\n  \"score\": 5,\\n  \"feedback\": \"The student has a basic understanding of the difference between hardware and software, but the explanation could be more detailed and accurate. Hardware refers to physical components, not just parts, while software is not stored in memory but on storage devices like hard drives. Encourage the student to elaborate more on the functions and interactions of hardware and software in a computer system.\"\\n}', 'annotations': []}] additional_kwargs={} response_metadata={'id': 'resp_6832d2b9d1688198aa5a17815360c1640632020f7e954bda', 'created_at': 1748161209.0, 'metadata': {}, 'model': 'gpt-3.5-turbo-0125', 'object': 'response', 'service_tier': 'default', 'status': 'completed', 'model_name': 'gpt-3.5-turbo-0125'} id='msg_6832d2ba2f908198ad702ecdb86e050d0632020f7e954bda' usage_metadata={'input_tokens': 101, 'output_tokens': 85, 'total_tokens': 186, 'output_token_details': {}}"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": "those are two different ways to structure your code. object oriented allows to structure your code as classess and objects. while procedural contains code in procedures.",
+        "question": "Explain the difference between procedural programming and object-oriented programming.",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "those are two different ways to structure your code. object oriented allows to structure your code as classess and objects. while procedural contains code in procedures.",
+        "score": 5,
+        "feedback": "Good job in providing a basic overview of the differences between procedural and object-oriented programming. Be sure to expand on the advantages and disadvantages of each approach in future explanations for a more comprehensive understanding."
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": "that's a small part of a program to operate on specific data structures to solve a specific problem such as soring, searching, traversing or something else.",
+        "question": "What is the purpose of an algorithm in computer science?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "that's a small part of a program to operate on specific data structures to solve a specific problem such as soring, searching, traversing or something else.",
+        "score": 5,
+        "feedback": "The student provides a generally accurate answer but could improve by emphasizing that an algorithm is a set of instructions or steps to solve a problem, independent of a specific programming language or implementation."
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "dd0f5ae8-0166-476d-b95f-a285ed95b230",
+        "answer": "i don't know",
+        "question": "What is the difference between hardware and software in a computer system?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "i don't know",
+        "score": 5,
+        "feedback": "The student\\'s answer lacks substance and does not demonstrate understanding of the concepts. It is important to have a basic understanding of hardware and software in a computer system. I recommend studying these concepts to improve your knowledge in computer science."
+      }
+    ],
+    "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b": [
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "Dacia, in the 1980th",
+        "question": "What is the most popular Romanian car brand and when was it founded?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "Dacia, in the 1980th",
+        "score": 5,
+        "feedback": "The student correctly identified Dacia as the most popular Romanian car brand. However, the founding year given (1980th) is incorrect. Dacia was actually founded in 1966, so the answer is partially correct. Encourage the student to double-check historical facts for accuracy."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "Dacia, 1966",
+        "question": "What is the most popular Romanian car brand and when was it founded?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "Dacia, 1966",
+        "score": 5,
+        "feedback": "Good job! The student correctly identified Dacia as the most popular Romanian car brand. However, they missed providing the exact founding year of Dacia, which is 1966. Keep up the good work!"
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "I don't know",
+        "question": "Can you name a famous Romanian racing driver and some of their achievements?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "I don't know",
+        "score": 5,
+        "feedback": "The student provided no answer to the question, which shows a lack of knowledge or effort. It would be beneficial for the student to research and learn about famous Romanian racing drivers and their achievements."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "spring, logan and lodgy",
+        "question": "What are the top three best-selling car models in Romania in the past year?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "spring, logan and lodgy",
+        "score": 5,
+        "feedback": "The student\\'s answer is partially correct but lacks specific car model names. It appears that the student only provided brand names rather than actual car models. Encourage the student to provide more detailed and accurate responses in the future."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "it became a part of renault and now is selling cheap cars on the romanian an pan-european market",
+        "question": "How has the Romanian automotive industry evolved over the past decade in terms of production volume and innovation?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "it became a part of renault and now is selling cheap cars on the romanian an pan-european market",
+        "score": 5,
+        "feedback": "The student\\'s answer lacks depth and detail. While mentioning the acquisition by Renault and the selling of cheap cars is somewhat relevant, the response does not address the evolution of production volume or innovation in the Romanian automotive industry over the past decade. Encourage the student to provide more specific and comprehensive information in their response."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "economical problems in EU, electrical cars from china are taking over",
+        "question": "What are some of the main challenges facing the Romanian automotive industry today, and how are they being addressed?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "economical problems in EU, electrical cars from china are taking over",
+        "score": 5,
+        "feedback": "The student\\'s answer is vague and lacks specific details about the main challenges facing the Romanian automotive industry. The mention of economical problems in the EU is too broad and needs further elaboration. The statement about Chinese electric cars taking over is relevant but needs more explanation and analysis to support the point."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "it's the main brand / model produced in romania. it plays significant role in the overall economy of romania as well",
+        "question": "Can you explain the significance of the Dacia brand in the context of Romanian automotive history?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "it's the main brand / model produced in romania. it plays significant role in the overall economy of romania as well",
+        "score": 5,
+        "feedback": "The student provides a basic understanding of the significance of the Dacia brand in Romanian automotive history. To improve, they could expand on the historical background of Dacia, its impact on the automotive industry in Romania, and its influence on the country\\'s economy."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": "dacia is now going to take a part in dakar which is going to push the overall brand recognition and a lot of technological developments in the area",
+        "question": "What are some recent advancements or technological developments in Romanian automotive engineering that have gained international recognition?",
+        "user_id": "default"
+      },
+      {
+        "role": "user",
+        "content": "dacia is now going to take a part in dakar which is going to push the overall brand recognition and a lot of technological developments in the area",
+        "score": 5,
+        "feedback": "The student\\'s answer lacks specific details and does not clearly explain the recent advancements or technological developments in Romanian automotive engineering. They only briefly mention Dacia\\'s participation in the Dakar rally but do not provide any depth or additional examples. Encourage the student to provide more specific information and details to support their answer."
+      },
+      {
+        "topic": "993f75f6-5a3a-40fe-bcfc-1da718e2ab4b",
+        "answer": null,
+        "question": null,
+        "user_id": "default"
+      }
+    ]
+  }
+}

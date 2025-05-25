@@ -1,0 +1,155 @@
+openapi: 3.0.3
+info:
+  title: Interactive Learning System API
+  version: 1.0.0
+  description: |
+    API for managing topics, tracking student progress, and running adaptive learning sessions using LangChain.
+servers:
+  - url: http://localhost:8000
+paths:
+  /topics:
+    get:
+      summary: List all topics
+      responses:
+        '200':
+          description: List of topics
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+    post:
+      summary: Add a new topic
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TopicRequest'
+      responses:
+        '200':
+          description: Topic added
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: Topic already exists or invalid
+  /topics/{topic}:
+    delete:
+      summary: Delete a topic
+      parameters:
+        - in: path
+          name: topic
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Topic deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Topic not found
+  /progress:
+    get:
+      summary: Get student progress
+      responses:
+        '200':
+          description: Progress data
+          content:
+            application/json:
+              schema:
+                type: object
+  /study/start:
+    post:
+      summary: Start a study session (get assessment questions)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudyRequest'
+      responses:
+        '200':
+          description: Assessment questions
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  questions:
+                    type: array
+                    items:
+                      type: string
+  /study/answer:
+    post:
+      summary: Submit an answer to a question
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudyRequest'
+      responses:
+        '200':
+          description: Answer evaluation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  correct:
+                    type: boolean
+                  llm_result:
+                    type: string
+  /study/train:
+    post:
+      summary: Get a training question
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StudyRequest'
+      responses:
+        '200':
+          description: Training question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    type: string
+components:
+  schemas:
+    TopicRequest:
+      type: object
+      properties:
+        name:
+          type: string
+      required:
+        - name
+    StudyRequest:
+      type: object
+      properties:
+        topic:
+          type: string
+        answer:
+          type: string
+        question:
+          type: string
+        level:
+          type: string
+      required:
+        - topic
