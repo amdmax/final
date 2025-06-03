@@ -18,6 +18,7 @@ interface AgenticResponse {
   last_score?: number;
   last_feedback?: string;
   learning_tip?: string;
+  questions?: string[]; // Added to handle multiple questions
 }
 
 function App() {
@@ -50,7 +51,22 @@ function App() {
     })
       .then((res) => res.json())
       .then((data) => {
-        setAgentState(data);
+        // If backend returns {questions: [...], question: ...}, resume from last unanswered
+        if (Array.isArray(data.questions) && data.question) {
+          setAgentState({
+            action: "ask_question",
+            question: data.question,
+            questions: data.questions,
+            message: undefined,
+            level: undefined,
+            score: undefined,
+            last_score: undefined,
+            last_feedback: undefined,
+            learning_tip: undefined,
+          });
+        } else {
+          setAgentState(data);
+        }
         setLoading(false);
       })
       .catch(() => {
@@ -76,7 +92,15 @@ function App() {
     })
       .then((res) => res.json())
       .then((data) => {
-        setAgentState(data);
+        // If backend returns a new question, keep the feedback and move to next question
+        if (data && data.action === "ask_question" && data.question) {
+          setAgentState((prev) => ({
+            ...data,
+            // Optionally, keep a history of questions/answers if desired
+          }));
+        } else {
+          setAgentState(data);
+        }
         setUserAnswer("");
         setLoading(false);
       })
@@ -109,6 +133,24 @@ function App() {
       });
   };
 
+  // Delete a topic
+  const deleteTopic = (topic: Topic) => {
+    setLoading(true);
+    setError(null);
+    fetch(`${API_BASE}/students/${DEFAULT_STUDENT_ID}/topics/${topic.id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then(() => {
+        setTopics((prev) => prev.filter((t) => t.id !== topic.id));
+        setLoading(false);
+      })
+      .catch(() => {
+        setError("Failed to delete topic.");
+        setLoading(false);
+      });
+  };
+
   // UI rendering
   return (
     <div className="app-layout">
@@ -116,14 +158,24 @@ function App() {
         <h2>Your Topics</h2>
         <div className="topics-list">
           {topics.map((topic) => (
-            <button
-              key={topic.id}
-              className={`topic-btn${selectedTopic?.id === topic.id ? ' selected' : ''}`}
-              onClick={() => startTopic(topic)}
-              disabled={loading}
-            >
-              {topic.name}
-            </button>
+            <div key={topic.id} style={{ display: 'inline-flex', alignItems: 'center', marginRight: 8 }}>
+              <button
+                className={`topic-btn${selectedTopic?.id === topic.id ? ' selected' : ''}`}
+                onClick={() => startTopic(topic)}
+                disabled={loading}
+              >
+                {topic.name}
+              </button>
+              <button
+                aria-label={`Delete ${topic.name}`}
+                style={{ marginLeft: 4, color: 'red', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 'bold', fontSize: 18 }}
+                onClick={() => deleteTopic(topic)}
+                disabled={loading}
+                title="Remove topic"
+              >
+                ×
+              </button>
+            </div>
           ))}
         </div>
         <div className="add-topic-form">
@@ -208,6 +260,16 @@ function App() {
                     >
                       Back to Topics
                     </button>
+                  </div>
+                )}
+                {agentState && Array.isArray(agentState.questions) && (
+                  <div className="questions-list">
+                    <strong>All Questions:</strong>
+                    <ol>
+                      {agentState.questions.map((q, idx) => (
+                        <li key={idx}>{q}</li>
+                      ))}
+                    </ol>
                   </div>
                 )}
               </div>

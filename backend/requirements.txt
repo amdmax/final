@@ -6,3 +6,9 @@ langchain
 langchain-community
 openai
 langchain-openai
+mcp
+perplexity-mcp
+python-dotenv
+# The browser tool is included with mcp, but if it requires a separate package, add it here
+# mcp-tools-browser  # Uncomment if needed for your MCP version
+mcp-use
